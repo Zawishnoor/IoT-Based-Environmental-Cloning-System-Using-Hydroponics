@@ -90,11 +90,19 @@ The database was structured to support data associated with:
 
 ### Realtime Sensor Data
 
+The realtime database maintains current environmental measurements and system states, including temperature, humidity, light intensity, soil moisture, and pump status.
+
 <p align="center">
-  <img src="database/firebase-realtime-db.png" width="90%" alt="Firebase Realtime Sensor Data">
+  <img src="database/environmental-sensor-data.png" width="90%" alt="Realtime Environmental Sensor Data in Firebase">
 </p>
 
-The realtime structure maintains current environmental measurements and system states, allowing connected software components to retrieve updated information.
+### Environmental Data Structure
+
+Environmental measurements including air quality, humidity, light intensity, soil moisture, and temperature are organized within Firebase for centralized cloud-based data management.
+
+<p align="center">
+  <img src="database/firebase-realtime-db.png" width="90%" alt="Environmental Sensor Data Structure in Firebase Realtime Database">
+</p>
 
 ### Environmental Data Structure
 
